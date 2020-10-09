@@ -1,8 +1,9 @@
-//Place functions in here" 
+##Place functions in here" 
 
 
 
-//End of function area
+##End of function area
+
 print("Let your fellow club members get to know you!\n")
 
 name = input("Who do you want to get to know \t (Enter First Name) \n")
