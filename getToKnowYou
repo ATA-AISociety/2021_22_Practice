@@ -1,4 +1,11 @@
 ##Place functions in here" 
+
+def shawn():
+    print("I can solve a rubik's cube in under 10 seconds.")
+    print("My favorite fruit is strawberry.")
+    print("I like to fish at Panguitch Lake in Utah.")
+    
+
 def oscar():
     print("Hi, my name is Oscar.\n")
     print("I am a senior and play League of Legends too much.\n")
@@ -48,7 +55,7 @@ elif name == "gabby":
     gabby()
   
 elif name == "shawn":
-
+    shawn();
 elif name == "dorothy":
 
 elif name == "wade":
