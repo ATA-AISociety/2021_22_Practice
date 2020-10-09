@@ -1,7 +1,8 @@
 ##Place functions in here" 
-
-
-
+def shawn():
+    print("I can solve a rubik's cube in under 10 seconds.")
+    print("My favorite fruit is strawberry.")
+    print("I like to fish at Panguitch Lake in Utah.")
 ##End of function area
 
 print("Let your fellow club members get to know you!\n")
@@ -29,7 +30,7 @@ elif name == "edward":
 elif name == "gabby":
 
 elif name == "shawn":
-
+    shawn();
 elif name == "dorothy":
 
 elif name == "wade":
