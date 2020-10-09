@@ -1,5 +1,10 @@
 ##Place functions in here" 
 
+def wade():
+    print("Been to as many states as I haven't")
+    print("Relationship status with coding: on and off")
+    print("Hobbies: working on multiple projects that drive me crazy")
+
 
 
 ##End of function area
@@ -33,6 +38,7 @@ elif name == "shawn":
 elif name == "dorothy":
 
 elif name == "wade":
+    wade()
 
 else: 
     print("There is sadly no one of that name in this club :(\n\nGo Advertise!")
