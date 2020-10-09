@@ -4,7 +4,11 @@ def oscar():
     print("I am a senior and play League of Legends too much.\n")
     print("Someone help.\n")
 
-
+def gabby
+    print("I play alto sax")
+    print("I draw a ton in my free time,, and watch too much anime")
+    print("I am learning Korean to become an exchange student")
+    
 def edward():
     print("I have a twin);
     print("I've been to Mexico City");
@@ -36,7 +40,8 @@ elif name == "edward":
     edward();
 
 elif name == "gabby":
-
+    gabby()
+  
 elif name == "shawn":
 
 elif name == "dorothy":
