@@ -11,15 +11,24 @@ def oscar():
     print("I am a senior and play League of Legends too much.\n")
     print("Someone help.\n")
 
+
+def wade():
+    print("Been to as many states as I haven't")
+    print("Relationship status with coding: on and off")
+    print("Hobbies: working on multiple projects that drive me crazy")
+
+
 def gabby
     print("I play alto sax")
     print("I draw a ton in my free time,, and watch too much anime")
     print("I am learning Korean to become an exchange student")
     
+    
 def edward():
     print("I have a twin);
     print("I've been to Mexico City");
     print("I'm really intrested in VR technology");
+
 
 def louis():
     print("My is Louis De Manuel")
@@ -59,6 +68,7 @@ elif name == "shawn":
 elif name == "dorothy":
 
 elif name == "wade":
+    wade()
 
 else: 
     print("There is sadly no one of that name in this club :(\n\nGo Advertise!")
