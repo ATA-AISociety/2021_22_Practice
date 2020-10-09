@@ -1,10 +1,19 @@
 ##Place functions in here" 
+def oscar():
+    print("Hi, my name is Oscar.\n")
+    print("I am a senior and play League of Legends too much.\n")
+    print("Someone help.\n")
+
 
 def wade():
     print("Been to as many states as I haven't")
     print("Relationship status with coding: on and off")
     print("Hobbies: working on multiple projects that drive me crazy")
 
+def edward():
+    print("I have a twin);
+    print("I've been to Mexico City");
+    print("I'm really intrested in VR technology");
 
 
 ##End of function area
@@ -42,12 +51,3 @@ elif name == "wade":
 
 else: 
     print("There is sadly no one of that name in this club :(\n\nGo Advertise!")
-    
-def edward():
-    print("I have a twin);
-    print("I've been to Mexico City");
-    print("I'm really intrested in VR technology");
-def oscar():
-    print("Hi, my name is Oscar.\n")
-    print("I am a senior and play League of Legends too much.\n")
-    print("Someone help.\n")
