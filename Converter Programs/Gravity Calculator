@@ -1,0 +1,12 @@
+GRAVITY = 9.81
+
+print("Speedy Fall Calculator")
+print("----------------------")
+print("\n\nEnter a time in seconds")
+time = int(input())
+
+print("\n\nTime\t\tDistance(meters)")
+print("------------------------------------", end='')
+for segmentedTime in range(time + 1):
+    distance = 0.5 * GRAVITY * segmentedTime**2;
+    print("\n" + str(segmentedTime) + "\t\t" + str(distance), end='');
