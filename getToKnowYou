@@ -25,7 +25,7 @@ elif name == "alex":
 elif name == "joseph":
 
 elif name == "oscar":
-    oscar();
+    oscar()
 elif name == "louis":
 
 elif name == "bronson": 
