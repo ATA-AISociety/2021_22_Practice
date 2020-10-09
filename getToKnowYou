@@ -1,0 +1,36 @@
+//Place functions in here" 
+
+
+
+//End of function area
+print("Let your fellow club members get to know you!\n")
+
+name = input("Who do you want to get to know \t (Enter First Name) \n")
+name = name.lower()
+
+if name == "jordan":
+
+elif name == "alex":
+
+elif name == "joseph":
+
+elif name == "oscar":
+
+elif name == "louis":
+
+elif name == "bronson": 
+
+elif name == "amani": 
+
+elif == "edward": 
+
+elif == "gabby":
+
+elif name == "shawn":
+
+elif name == "dorothy":
+
+elif name == "wade":
+
+else: 
+  print("There is sadly no one of that name in this club :(\n\nGo Advertise!")
