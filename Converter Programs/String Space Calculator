@@ -1,0 +1,37 @@
+def display_info():
+    print("\t\tSpacious Space Determiner")
+    print("----------------------------------------")
+
+
+def get_string():
+    judgement_string = str(input("\nPlease enter the string you would like to find the number of spaces in: \n"))
+    return judgement_string
+
+
+def count_spaces(judgement_string):
+    string_lengths = 0
+    for x in range(len(judgement_string)):
+        if judgement_string[x] == ' ':
+            string_lengths += 1
+    return string_lengths
+
+
+def display_count(string_lengths):
+    print("\n\n--------------------------------")
+    print("|The spaces in the string is " + str(string_lengths) + " |")
+    print("--------------------------------")
+
+
+# -----------------------------
+
+display_info()
+repeat = input("Would you like to find the spaces in a string? (Y/N)\n")
+
+while repeat == "y" or repeat == "Y" or repeat == "Yes" or repeat == "yes":
+    judged_string = str(get_string())
+    string_length = count_spaces(judged_string)
+    display_count(string_length)
+
+    repeat = input("Would you like to find the spaces in another string? (Y/N)\n")
+
+print("Goodbye")
