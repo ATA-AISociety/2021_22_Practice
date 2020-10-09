@@ -1,14 +1,10 @@
 ##Place functions in here" 
-def oscar():
-    print("Hi, my name is Oscar.\n")
-    print("I am a senior and play League of Legends too much.\n")
-    print("Someone help.\n")
 
-
-def edward():
-    print("I have a twin);
-    print("I've been to Mexico City");
-    print("I'm really intrested in VR technology");
+def louis():
+    print("My is Louis De Manuel");
+    print("Fact 1: I am a gamer who can play almost anything.");
+    print("Fact 2: My computer monitor is a TV.");
+    print("Fact 3: Despite being Filipino, I could not speak Tagalog");
 
 
 ##End of function area
@@ -27,7 +23,7 @@ elif name == "joseph":
 elif name == "oscar":
     oscar();
 elif name == "louis":
-
+    louis();
 elif name == "bronson": 
 
 elif name == "amani": 
@@ -45,3 +41,12 @@ elif name == "wade":
 
 else: 
     print("There is sadly no one of that name in this club :(\n\nGo Advertise!")
+    
+def edward():
+    print("I have a twin);
+    print("I've been to Mexico City");
+    print("I'm really intrested in VR technology");
+def oscar():
+    print("Hi, my name is Oscar.\n")
+    print("I am a senior and play League of Legends too much.\n")
+    print("Someone help.\n")
