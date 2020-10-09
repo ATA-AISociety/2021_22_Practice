@@ -1,0 +1,52 @@
+def menu():
+    print("\n\n1. Convert to kilometers")
+    print("2. Convert to inches")
+    print("3. Convert to feet")
+    print("4. Quit")
+    print("Please make a selection: ")
+
+
+def show_kilometers(meters):
+    kilometers = meters * 0.001
+    return kilometers
+
+
+def show_inches(meters):
+    inches = meters * 39.37
+    return inches
+
+
+def show_feet(meters):
+    feet = meters * 3.281
+    return feet
+
+
+# ----------------------------------------------------
+userChoice = 0
+
+print("\t\tConversion Calculator")
+print("--------------------------------")
+print("\nEnter a distance in meters: ")
+meters = float(input())
+
+while meters <= 0:
+    print("\nInvalid distance. Try again: ")
+    meters = float(input())
+
+while userChoice != 4:
+    menu()
+    userChoice = int(input())
+
+    if userChoice == 1:
+        result = round(show_kilometers(meters), 2)
+        print("\n" + str(meters) + " meters is " + str(result) + " kilometers")
+    elif userChoice == 2:
+        result = round(show_inches(meters), 2)
+        print("\n" + str(meters) + " meters is " + str(result) + " inches")
+    elif userChoice == 3:
+        result = round(show_feet(meters), 2)
+        print("\n" + str(meters) + " meters is " + str(result) + " feet")
+    elif userChoice == 4:
+        print("\nGoodbye.")
+    else:
+        print("\nInvalid selection.")
