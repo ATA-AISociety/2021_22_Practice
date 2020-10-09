@@ -23,7 +23,8 @@ elif name == "bronson":
 
 elif name == "amani": 
 
-elif name == "edward": 
+elif name == "edward":
+    edward();
 
 elif name == "gabby":
 
