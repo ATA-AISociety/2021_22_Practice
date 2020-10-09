@@ -1,0 +1,29 @@
+under = 18.4
+over = 26
+
+print("")
+print("Welcome to the BMI Calcumalator!")
+print("--------------------------------")
+print("")
+
+weight = input("Please enter your weight: ")
+weight = float (weight)
+height = input("Please enter your height in inches: ")
+height = float (height)
+print("")
+
+def calc(weight, height):
+  BMI = weight * (703/(height** 2))
+  return BMI
+BMI = calc(weight, height)
+BMI = float (BMI)
+
+print("your BMI is ", round(BMI, 2))
+print("")
+
+if BMI > under and BMI < over:
+  print("Your BMI is optimal")
+elif BMI < under:
+  print("You are underweight")
+elif BMI > over:
+  print("You are overweight")
