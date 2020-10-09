@@ -1,2 +1,2 @@
-# 20-21_Practice
-This repository will be for github experimentation and nonproject coding
+# 20-21 AI Society Practice
+This repository will be for github experimentation, code hosting, and nonproject coding.
