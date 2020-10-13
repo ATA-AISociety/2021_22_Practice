@@ -1,5 +1,10 @@
 ##Place functions in here" 
 
+def Jordan():
+    print("I am president of Artifical Intelligence Society")
+    print("My first programming language was C++ and so am very used to adding semicolons;")
+    print("I created a discord bot over the summer which webscrapes information off thesaurus.com")
+
 def shawn():
     print("I can solve a rubik's cube in under 10 seconds.")
     print("My favorite fruit is strawberry.")
@@ -44,7 +49,7 @@ name = input("Who do you want to get to know \t (Enter First Name) \n")
 name = name.lower()
 
 if name == "jordan":
-
+    Jordan()
 elif name == "alex":
 
 elif name == "joseph":
