@@ -1,4 +1,4 @@
-##Place functions in here" 
+##Place functions in here. There are still some names missing. It is optional to make a pull request here, but it'll help you get used to making them. 
 
 def Jordan():
     print("I am president of Artifical Intelligence Society")
