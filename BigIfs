@@ -1,1 +1,8 @@
-
+##Showcase in a creative way, the use of if statements in Python
+##The most creative/ most informative example will be merged into the main branch
+'''
+if "Your Way" > "Their Way":
+  print("Your file will be merged")
+else:
+  print("Thier file will be merged")
+'''
