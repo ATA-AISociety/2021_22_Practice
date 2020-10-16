@@ -31,3 +31,19 @@ while runnin:
         print("Try a bigger number")
     else:
         print("Try a smaller number")
+
+
+
+def Maths():
+    numberx = float((input("Enter X into function: ")))
+    numbery = (numberx **2 +numberx - 20) / (2*numberx **4 +numberx *30 - 20)
+    print("Y value: " + str(numbery))
+    if (numbery > 0):
+        print("The Y value is positive")
+    elif (numbery < 0):
+        print("The Y value is negative")
+    else:
+        print("The Y value is zero")
+
+
+Maths();
