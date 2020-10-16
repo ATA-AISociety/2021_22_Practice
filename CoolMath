@@ -2,6 +2,16 @@
 ##Demonstrate the use of +, -, *, /, and % 
 ##Submit a pull request. One will be chosen to be merged into the main branch. 
 
+userin = input("Enter first number: )
+usertwo = input("Enter second number: )
+userin = int(userin)
+usertwo = int(userstwo)
+print(userin + usertwo)
+print( userin - usertwo)
+print(userin * usertwo)
+print(userin / usertwo)
+print( userin % usertwo)
+
 def showOp():
     print("Big math brain time")
     print("527 + 345 =", 527 + 345)
