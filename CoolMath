@@ -1,3 +1,11 @@
 ##Request input from a user and prompt the user to input a number
 ##Demonstrate the use of +, -, *, /, and % 
 ##Submit a pull request. One will be chosen to be merged into the main branch. 
+
+# Power Function
+def cool_math():
+    x = input("Enter a number: ")
+    x = int(x)
+    y = input("What power do you want to multiply your int to: ")
+    y = int(y)
+    print(x ** y)
