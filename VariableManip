@@ -7,3 +7,17 @@ def var_manip():
     x = "5"
     x = int(x)
     print(x ** 2)
+    
+    
+    
+#casting variables
+
+import random
+
+n = random.randint(1, 10000)
+print("Enter your name for a random password:  ")
+name = input();
+num = random.randint(1, 100)
+
+print("Your password is :" + str(num) + name + str(n))
+
