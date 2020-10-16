@@ -2,6 +2,27 @@
 ##Demonstrate the use of +, -, *, /, and % 
 ##Submit a pull request. One will be chosen to be merged into the main branch. 
 
+userin = input("Enter first number: )
+usertwo = input("Enter second number: )
+userin = int(userin)
+usertwo = int(userstwo)
+print(userin + usertwo)
+print( userin - usertwo)
+print(userin * usertwo)
+print(userin / usertwo)
+print( userin % usertwo)
+
+def showOp():
+    print("Big math brain time")
+    print("527 + 345 =", 527 + 345)
+    print("527 - 345 =", 527 - 345)
+    print("527 * 345 =", 527 * 345)
+    print("527 / 345 =", 527 / 345)
+    print("1048 % 345 = ", 1048 % 345)
+
+showOp()
+
+
 import random
 
 # Power Function
@@ -31,6 +52,7 @@ while runnin:
         print("Try a bigger number")
     else:
         print("Try a smaller number")
+
 
 loop = 1
 while 1 == 1:
@@ -75,3 +97,5 @@ while 1 == 1:
             y = int(y)
             print(x / y)
             loop = 1
+
+
