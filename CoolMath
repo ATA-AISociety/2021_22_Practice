@@ -4,6 +4,17 @@
 
 import random
 
+# Power Function
+
+def cool_math():
+    x = input("Enter a number: ")
+    x = int(x)
+    y = input("What power do you want to multiply your int to: ")
+    y = int(y)
+    print(x ** y)
+
+
+
 n = random.randint(1,15)
 print("I am thinking of a number")
 
@@ -20,4 +31,3 @@ while runnin:
         print("Try a bigger number")
     else:
         print("Try a smaller number")
-
