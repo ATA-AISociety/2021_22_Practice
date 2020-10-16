@@ -1,6 +1,7 @@
 ##Request input from a user and prompt the user to input a number
 ##Demonstrate the use of +, -, *, /, and % 
 ##Submit a pull request. One will be chosen to be merged into the main branch. 
+
 def showOp():
     print("Big math brain time")
     print("527 + 345 =", 527 + 345)
@@ -10,3 +11,35 @@ def showOp():
     print("1048 % 345 = ", 1048 % 345)
 
 showOp()
+
+
+import random
+
+# Power Function
+
+def cool_math():
+    x = input("Enter a number: ")
+    x = int(x)
+    y = input("What power do you want to multiply your int to: ")
+    y = int(y)
+    print(x ** y)
+
+
+
+n = random.randint(1,15)
+print("I am thinking of a number")
+
+
+runnin = True
+
+while runnin:
+    guess_str = input("Take a guess ")
+    guess = int(guess_str)
+    if guess == n:
+        print("Well Done")
+        runnin = False
+    elif guess < n:
+        print("Try a bigger number")
+    else:
+        print("Try a smaller number")
+

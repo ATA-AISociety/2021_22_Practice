@@ -1,5 +1,10 @@
 ##Place functions in here. There are still some names missing. It is optional to make a pull request here, but it'll help you get used to making them. 
 
+def Jordan():
+    print("I am president of Artifical Intelligence Society")
+    print("My first programming language was C++ and so am very used to adding semicolons;")
+    print("I created a discord bot over the summer which webscrapes information off thesaurus.com")
+
 def shawn():
     print("I can solve a rubik's cube in under 10 seconds.")
     print("My favorite fruit is strawberry.")
@@ -35,6 +40,11 @@ def louis():
     print("Fact 1: I am a gamer who can play almost anything.")
     print("Fact 2: My computer monitor is a TV.")
     print("Fact 3: Despite being Filipino, I could not speak Tagalog")
+    
+def adam():
+    print("Hi, I am Adam")
+    print("I really like programming, robotics, and video games.")
+    print("I have gone to a robotics worlds competition")
 
 ##End of function area
 
@@ -44,7 +54,7 @@ name = input("Who do you want to get to know \t (Enter First Name) \n")
 name = name.lower()
 
 if name == "jordan":
-
+    Jordan()
 elif name == "alex":
 
 elif name == "joseph":
@@ -69,6 +79,9 @@ elif name == "dorothy":
 
 elif name == "wade":
     wade()
+
+elif name == "adam":
+    adam()
 
 else: 
     print("There is sadly no one of that name in this club :(\n\nGo Advertise!")

@@ -2,3 +2,8 @@
 ##This can include making a variable, casting a variable, or using a variable
 ##Most creative/ informational pull request will be merged with the main file
 
+# just manipulating the variable by changing it from a string to integer and squaring the integer.
+def var_manip():
+    x = "5"
+    x = int(x)
+    print(x ** 2)
