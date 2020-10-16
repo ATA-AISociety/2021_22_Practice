@@ -31,3 +31,10 @@ while runnin:
         print("Try a bigger number")
     else:
         print("Try a smaller number")
+
+
+def Maths():
+    print("Enter X into function: ")
+    numberx = int(input());
+    numbery = (2*(numberx+10))/((numberx)**2+2(numberx)-30)
+    print("Y value: " + numbery)
