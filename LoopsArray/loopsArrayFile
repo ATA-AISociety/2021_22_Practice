@@ -1,0 +1,11 @@
+''' For this projec, I have made a folder. 
+When you fork this project rename it and make a pull request of this file under a different name. 
+Please include your name in the name of the file. 
+'''
+
+## Oh no! Someone has filled my list (which was supposed to collect the number of pets everyone had) with strinsg and decimal numbers. 
+## Please fix this by removing all invalid inputs from the list
+## Then order all remaining elements of the list least to greatest
+## Finally, use a while loop to make sure that an input statement only accepts whole number integers
+## Thank you coders
+## - Person who didn't input validate
