@@ -45,7 +45,9 @@ def adam():
     print("Hi, I am Adam")
     print("I really like programming, robotics, and video games.")
     print("I have gone to a robotics worlds competition")
-
+def yohannes():
+    print("Im Yohannes")
+    print("My hobboes are playing basketball, coding python and java, and of course watching netflix")
 ##End of function area
 
 print("Let your fellow club members get to know you!\n")
@@ -82,6 +84,8 @@ elif name == "wade":
 
 elif name == "adam":
     adam()
+elif name == "yohannes":
+   yohannes()
 
 else: 
     print("There is sadly no one of that name in this club :(\n\nGo Advertise!")
