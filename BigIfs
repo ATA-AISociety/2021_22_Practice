@@ -36,6 +36,15 @@ def big_ifs():
     else:
         print(x, "is not a prime number.")
 
+
+x = input("Enter in X's number: ")
+y = input("Enter in Y's number: ")
+if "x" > "y":
+  print("Y looses to X")
+if "y" > "x":
+  print(" X looses to Y")
+  
+
 import time
 
 ## Username is USER and the password is password, the password will change to whatever you set it when prompted to.
