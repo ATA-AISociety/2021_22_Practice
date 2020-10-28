@@ -28,3 +28,12 @@ num = random.randint(1, 100)
 print("Your password is :" + str(num) + name + str(n))
 
 
+# this is one of those math things where the output is always 2
+y = input()
+y = int(y)
+x = y
+x = x * 3
+x = x + 6
+x = x / 3
+x = x - y
+print(x)

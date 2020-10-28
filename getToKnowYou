@@ -5,6 +5,11 @@ def Jordan():
     print("My first programming language was C++ and so am very used to adding semicolons;")
     print("I created a discord bot over the summer which webscrapes information off thesaurus.com")
 
+def alex():
+    print("I am vice president of Artifical Intelligence Society")
+    print("I hate javascript")
+    print("I make minecraft servers for STUCO")
+
 def shawn():
     print("I can solve a rubik's cube in under 10 seconds.")
     print("My favorite fruit is strawberry.")
@@ -45,7 +50,9 @@ def adam():
     print("Hi, I am Adam")
     print("I really like programming, robotics, and video games.")
     print("I have gone to a robotics worlds competition")
-
+def yohannes():
+    print("Im Yohannes")
+    print("My hobboes are playing basketball, coding python and java, and of course watching netflix")
 ##End of function area
 
 print("Let your fellow club members get to know you!\n")
@@ -82,6 +89,8 @@ elif name == "wade":
 
 elif name == "adam":
     adam()
+elif name == "yohannes":
+   yohannes()
 
 else: 
     print("There is sadly no one of that name in this club :(\n\nGo Advertise!")
