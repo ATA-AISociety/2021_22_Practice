@@ -6,6 +6,22 @@ if "Your Way" > "Their Way":
 else:
   print("Thier file will be merged")
 '''
+
+
+
+print("Input a number to check if it is a factor of another number")
+
+firsnum = input("first number: ")
+
+secNum = input("Second number:  ")
+
+
+if(int(firsnum) % int(secNum)) != 0 :
+
+    print(str(firsnum) + " is not a factor of " + str(secNum))
+else :
+    print(" They are fators")
+
 # Fibonacci Sequence
 def big_ifs():
     x = input("Enter a number: ")
@@ -55,3 +71,4 @@ while 1 == 1:
             print("WRONG PASSWORD")
     else:
         print("ERROR")
+
