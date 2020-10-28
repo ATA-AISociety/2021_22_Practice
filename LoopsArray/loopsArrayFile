@@ -1,0 +1,13 @@
+''' For this projec, I have made a folder. 
+When you fork this project rename it and make a pull request of this file under a different name. 
+Please include your name in the name of the file. 
+'''
+
+## Oh no! Someone has filled my list (which was supposed to collect the number of pets everyone had) with strings and decimal numbers. 
+## Please fix this by removing all invalid inputs from the list (maybe find a way to use a loop for this, hint hint)
+## Then order all remaining elements of the list least to greatest
+## Finally, use a while loop to make sure that an input statement only accepts whole number integers
+## Thank you coders
+## - Person who didn't input validate
+
+myList = [1, 3, 5.5, 69, 420, "Lol", "Who has pets?", "I am da one, da one...", 2, 5, 6, True, False, "12", 4, 8.8, 0.0000001, "What kinda loser doesn't input validate?", "hackz", 3]

@@ -6,6 +6,22 @@ if "Your Way" > "Their Way":
 else:
   print("Thier file will be merged")
 '''
+
+
+
+print("Input a number to check if it is a factor of another number")
+
+firsnum = input("first number: ")
+
+secNum = input("Second number:  ")
+
+
+if(int(firsnum) % int(secNum)) != 0 :
+
+    print(str(firsnum) + " is not a factor of " + str(secNum))
+else :
+    print(" They are fators")
+
 # Fibonacci Sequence
 def big_ifs():
     x = input("Enter a number: ")
@@ -20,6 +36,7 @@ def big_ifs():
     else:
         print(x, "is not a prime number.")
 
+
 x = input("Enter in X's number: ")
 y = input("Enter in Y's number: ")
 if "x" > "y":
@@ -27,3 +44,40 @@ if "x" > "y":
 if "y" > "x":
   print(" X looses to Y")
   
+
+import time
+
+## Username is USER and the password is password, the password will change to whatever you set it when prompted to.
+pswd = "password"
+while 1 == 1:
+    print("USERNAME")
+    inpt = input()
+    if inpt == "USER":
+        print("PASSWORD")
+        inpt = input()
+        if inpt == pswd:
+            x = 1
+            while x < 50:
+                x = str(x)
+                print(x + "%")
+                x = int(x)
+                x = x + 1
+                time.sleep(.1)
+            while x < 101:
+                x = str(x)
+                print(x + "%")
+                x = int(x)
+                x = x + 1
+                time.sleep(.005)
+            print("Sign in successful")
+            if pswd == "password":
+                print("You have a terrible password")
+            else:
+                print("You still have a terrible password")
+            print("please enter a new password")
+            pswd = input()
+        else:
+            print("WRONG PASSWORD")
+    else:
+        print("ERROR")
+
