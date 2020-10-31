@@ -2,6 +2,27 @@
 ##Demonstrate the use of +, -, *, /, and % 
 ##Submit a pull request. One will be chosen to be merged into the main branch. 
 
+userin = input("Enter first number: )
+usertwo = input("Enter second number: )
+userin = int(userin)
+usertwo = int(userstwo)
+print(userin + usertwo)
+print( userin - usertwo)
+print(userin * usertwo)
+print(userin / usertwo)
+print( userin % usertwo)
+
+def showOp():
+    print("Big math brain time")
+    print("527 + 345 =", 527 + 345)
+    print("527 - 345 =", 527 - 345)
+    print("527 * 345 =", 527 * 345)
+    print("527 / 345 =", 527 / 345)
+    print("1048 % 345 = ", 1048 % 345)
+
+showOp()
+
+
 import random
 
 # Power Function
@@ -32,8 +53,6 @@ while runnin:
     else:
         print("Try a smaller number")
 
-
-
 def Maths():
     numberx = float((input("Enter X into function: ")))
     numbery = (numberx **2 +numberx - 20) / (2*numberx **4 +numberx *30 - 20)
@@ -47,3 +66,50 @@ def Maths():
 
 
 Maths();
+
+
+loop = 1
+while 1 == 1:
+    if 1 == loop:
+        loop = 0
+        print("What operation would you like to calculate?")
+        print("( + - * / )")
+        x = input()
+        if "+" == x:
+            print("What is the first number?")
+            x = input()
+            print("What is the second number?")
+            y = input()
+            x = int(x)
+            y = int(y)
+            print(x + y)
+            loop = 1
+        elif "-" == x:
+            print("What is the number to subtract from?")
+            x = input()
+            print("What is the number to subtract?")
+            y = input()
+            x = int(x)
+            y = int(y)
+            print(x - y)
+            loop = 1
+        elif "*" == x:
+            print("What is the first number?")
+            x = input()
+            print("What is the second number?")
+            y = input()
+            x = int(x)
+            y = int(y)
+            print(x * y)
+            loop = 1
+        elif "/" == x:
+            print("What is the number to divide from?")
+            x = input()
+            print("What is the number to divide by?")
+            y = input()
+            x = int(x)
+            y = int(y)
+            print(x / y)
+            loop = 1
+
+
