@@ -1,0 +1,4 @@
+'''
+When you submit a pull request, rename the file so that is distinct. 
+Challenge: Read from the file called groupFile.txt and copy the contents into a new file that you create and can name whatever you want. Then add all the numerical values from the groupFile.txt contents, print the value, and overwite the value of your new file to be the total numerical value. 
+'''
