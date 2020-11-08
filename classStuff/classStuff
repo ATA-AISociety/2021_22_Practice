@@ -2,3 +2,32 @@
 Challenge: Create a class Cat that has the attributes name, age, and personality. Create a __str__ method for the class that nice formats all the data in class Cat. Also create a class variable that increases each time a new Cat objest is made. 
 Challenge: Create a subclass Tiger that has the attributes diet and owned. Create an __str__ method that overwrites the __str__ method in class Cat. Then create some Cat objects and Tigers and print out all their attributes if they exist. 
 '''
+class Cat():
+    total = 0
+    def __init__(self, name, age, personality):
+        self.name = name
+        self.age  = age
+        self.personality = personality
+        self.total += 1
+    def toString(self):
+        print("The Cat's name is", self.name, "-- It's age is", self.age, "-- The cat has a personality of", self.personality)
+
+
+
+class Tiger(Cat):
+    def __init__(self, name, age, personality, diet, owned):
+        super().__init__(name, age, personality)
+        self.diet = diet
+        self.owned = owned
+
+
+    def toString(self):
+        print("The Cat's name is", self.name, "-- It's age is", self.age, "-- The cat has a personality of", self.personality, "Its Diet is", self.diet, "I Have that many tigers", self.owned)
+
+
+newCat = Cat("Dog", "10", "good")
+
+newCat.toString()
+
+newTiger = Tiger("Bob", "12", " Bad", "Eats meat", 2)
+newTiger.toString()
