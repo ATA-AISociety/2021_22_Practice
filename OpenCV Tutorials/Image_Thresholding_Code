@@ -1,0 +1,45 @@
+#img = ImageArray or ImageLocationInFiles
+
+import cv2
+
+### Simple Thresholding Commands (Assumes a greyscale image, unknown what would happen if deal with color)
+## x is an arbitary value between 0 (Black) and 255 (White)
+## y is the maximum pixel value of an image (always 255)
+
+x = 127
+y = 555
+
+uselessVar, newImg2 = cv2.threshold(img, x, y, cv2.THRESH_BINARY)
+uselessVar, newImg3 = cv2.threshold(img, x, y, cv2.THRESH_BINARY_INV)
+uselessVar, newImg4 = cv2.threshold(img, x, y, cv2.THRESH_TRUNC)
+uselessVar, newImg5 = cv2.threshold(img, x, y, cv2.THRESH_TOZERO)
+uselessVar, newImg6 = cv2.threshold(img, x, y, cv2.THRESH_TOZERO_INV)
+
+### Adaptive Thresholding Commands 
+## z is the block size (Z by Z) and Z % 2 == 1 must be true
+## c is a constant subtratced from the mean value of each chunck (can be 0 to 255)
+## simple is any of the cv2.THRESH_ commands used above
+
+z = 17
+c = 0
+
+#adpNewImg1 = cv2.adaptiveThreshold(img, y, cv2.ADAPTIVE_THRESH_MEAN_C, simple, z, c)
+#adpNewImg2 = cv2.adaptiveThreshold(img, y, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, simple, z, c)
+
+#Examples of use
+adpNewImg1 = cv2.adaptiveThreshold(img, y, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, z, c)
+adpNewImg2 = cv2.adaptiveThreshold(img, y, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, z, c)
+
+###To show the images using cv2
+
+#Shows regular img
+cv2.imshow("Orginal Image", img)
+cv2.waitKey(0)
+
+cv2.imshow("THRESH_BINARY", newImg2)
+cv2.waitKey(0)
+
+cv2.imshow("ADAPTIVE_THRESH_MEAN_C", adpNewImg1)
+cv2.waitKey(0)
+
+cv2.destroyAllWindows()
