@@ -36,6 +36,7 @@ adpNewImg2 = cv2.adaptiveThreshold(img, y, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.T
 cv2.imshow("Orginal Image", img)
 cv2.waitKey(0)
 
+#Show thesholded images
 cv2.imshow("THRESH_BINARY", newImg2)
 cv2.waitKey(0)
 
