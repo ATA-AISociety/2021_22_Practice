@@ -1,0 +1,12 @@
+average = 0
+predictions = model.predict(testing_images)
+
+for num in range(len(predictions)):
+    if np.argmax(predictions[num]) == testing_labels[num]:
+        average += 1
+        print(average)
+    else:
+        print("wrong")
+
+average = average / len(predictions)
+print(average)
