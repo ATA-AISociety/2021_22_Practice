@@ -109,9 +109,33 @@ for i in range(0, len(humanFaceImg)):
     #cv2.waitKey(0)
 
 
-allImagesEditted = np.array(allImagesEditted).reshape(-1, IMG_SIZE, IMG_SIZE)
+#allImagesEditted = np.array(allImagesEditted).reshape(-1, IMG_SIZE, IMG_SIZE)
+
+pairedData = [[0]*2] * len(allImagesEditted)
+
+for i in range(0, len(allImagesEditted)):
+    for e in range(0,2):
+        if(e == 0):
+            pairedData[i][e] = allImagesEditted[i]
+        else:
+            #print(edittedImageLabels[i])
+            pairedData[i][e] = edittedImageLabels[i]
+            #print(pairedData[i][e])
+
+#print(pairedData)
+
+random.shuffle(pairedData)
+
+ranEdittedImg = []
+ranEdittedLabel = []
+
+for features, labels in pairedData:
+    ranEdittedImg.append(features)
+    ranEdittedLabel.append(labels)
+
+ranEdittedImg = np.array(ranEdittedImg).reshape(-1, IMG_SIZE, IMG_SIZE)
 
 class_names = ["Anime Face, Human Face"]
 model = keras.Sequential([keras.layers.Flatten(input_shape=(64,64)), keras.layers.Dense(128, activation=tf.nn.relu), keras.layers.Dense(10, activation=tf.nn.softmax)])
 model.compile(optimizer="adam", loss="sparse_categorical_crossentropy", metrics=["accuracy"])
-model.fit(allImagesEditted, edittedImageLabels, epochs=5)
+model.fit(ranEdittedImg, ranEdittedLabel, epochs=5)
