@@ -96,33 +96,38 @@ for i in range(0, len(animeImg)):
     newImg = cv2.adaptiveThreshold(animeImg[i], 127, cv2.ADAPTIVE_THRESH_MEAN_C,cv2.THRESH_BINARY, 17, 0)
     edittedAnime.append(newImg)
     if(i < 7220):
-        edittedImageLabels.append(tLabel_unsorted[i])
         allImagesEditted.append(newImg)
+        edittedImageLabels.append(tLabel_unsorted[i])
+
 
 for i in range(0, len(humanFaceImg)):
     newImg = cv2.adaptiveThreshold(humanFaceImg[i], 127, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 17, 0)
     edittedHumans.append(newImg)
     allImagesEditted.append(newImg)
-    edittedImageLabels.append(tLabel_unsorted[i])
+    edittedImageLabels.append(tLabel_unsorted[len(animeImg) + i])
 #for img in allImagesEditted:
     #cv2.imshow("Editted", img)
     #cv2.waitKey(0)
 
 
+
 #allImagesEditted = np.array(allImagesEditted).reshape(-1, IMG_SIZE, IMG_SIZE)
 
-pairedData = [[0]*2] * len(allImagesEditted)
+pairedData = []
 
 for i in range(0, len(allImagesEditted)):
+    pairedData.append([allImagesEditted[i], edittedImageLabels[i]])
+    '''
     for e in range(0,2):
         if(e == 0):
             pairedData[i][e] = allImagesEditted[i]
         else:
             #print(edittedImageLabels[i])
+            #print(edittedImageLabels[i])
             pairedData[i][e] = edittedImageLabels[i]
-            #print(pairedData[i][e])
+            print("Entry Number " + str(i)+ "\t"+ str(pairedData[i][e]))
+'''
 
-#print(pairedData)
 
 random.shuffle(pairedData)
 
@@ -132,6 +137,7 @@ ranEdittedLabel = []
 for features, labels in pairedData:
     ranEdittedImg.append(features)
     ranEdittedLabel.append(labels)
+    #print(labels)
 
 ranEdittedImg = np.array(ranEdittedImg).reshape(-1, IMG_SIZE, IMG_SIZE)
 
