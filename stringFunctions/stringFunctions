@@ -1,4 +1,0 @@
-'''
-In another file is a portion of the Bee Movie Script as per the legendary meme. Create a string for the file's content, then print in an understandable format, how many times the word bee, the, and, because, honey, and I are used. Finally, replace every instance of the word then with than to make things grammatically incorrect and print the script. 
-'''
-
