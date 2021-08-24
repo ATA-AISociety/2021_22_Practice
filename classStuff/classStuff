@@ -1,4 +1,0 @@
-'''
-Challenge: Create a class Cat that has the attributes name, age, and personality. Create a __str__ method for the class that nice formats all the data in class Cat. Also create a class variable that increases each time a new Cat objest is made. 
-Challenge: Create a subclass Tiger that has the attributes diet and owned. Create an __str__ method that overwrites the __str__ method in class Cat. Then create some Cat objects and Tigers and print out all their attributes if they exist. 
-'''
