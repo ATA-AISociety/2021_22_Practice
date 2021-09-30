@@ -9,3 +9,4 @@ while calTemp < 21:
   print(round(calTemp, 2), round(farTemp, 2))
   calTemp += 1
   farTemp = 1.8 * calTemp + 32
+
