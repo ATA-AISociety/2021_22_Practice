@@ -7,6 +7,8 @@ time = int(input())
 print(time)
 for x in 10:
   print(x)
+
+print(10)
 print("\n\nTime\t\tDistance(meters)")
 print("------------------------------------", end='')
 for segmentedTime in range(time + 1):
