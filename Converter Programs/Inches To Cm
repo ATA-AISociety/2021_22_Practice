@@ -1,0 +1,3 @@
+input = 10
+
+print("Input is", input*2.54 )
