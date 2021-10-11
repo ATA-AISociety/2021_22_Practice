@@ -1,1 +1,8 @@
 #Use a print statement to print your name, grade, major, and a fun fact about you
+
+
+def Yohannes():
+  Print("My name is Yohannes")
+  Print("Junior")
+  Print("Engineering")
+
