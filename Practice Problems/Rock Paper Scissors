@@ -1,0 +1,22 @@
+#Make a two-player Rock-Paper-Scissors game. 
+
+# Objective: Using python input method
+# *Tip:  using player input compare them to determine winner 
+
+move = input("Player 1; Rock, paper, or scissors: ").lower()
+move2 = input("Player 2; Rock, paper, or scissors: ").lower()
+
+if move == "paper" and move2 == "rock":
+    print("Player 1 wins")
+elif move == "rock" and move2 == "paper":
+    print("Player 2 wins")
+elif move == "rock" and move2 == "scissors":
+    print("Player 1 wins")
+elif move == "scissors" and move2 == "rock":
+    print("Player 1 wins")
+elif move == "scissors" and move2 == "paper":
+    print("Player 1 wins")
+elif move == "paper" and move2 == "scissors":
+    print("Player 2 wins")
+else:
+    print("Tie game!")
