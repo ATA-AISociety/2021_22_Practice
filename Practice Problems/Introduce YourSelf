@@ -1,4 +1,4 @@
 #Use a print statement to print your name, grade, major, and a fun fact about you
 
-
+print("Hey, my name is Shawn. I'm in the 10th grade majoring in computer science. A fun fact about me is that I hate styrofoam.")
 
