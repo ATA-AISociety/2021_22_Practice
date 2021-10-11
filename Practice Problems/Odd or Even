@@ -3,9 +3,3 @@
 *Tip: even % 2 equals 0
 
 
-num = input()
-
-if num % 2 == 0:
-  Print("Even")
-else:
-  Print("Odd")
