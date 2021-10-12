@@ -7,4 +7,12 @@ if input % 2 == 0:
     print("Your number is even")
 else:
     print("Your number is odd")
+//Kalel Heinreich
+n = input("Input number: ")
+n = int(n)
+r = n % 2
 
+if r == 0:
+  print("the number is even")
+else: 
+  print("the number is odd")
