@@ -1,3 +1,10 @@
 # Write a program that determines if a user input is odd or even 
+n = input("Input number: ")
+n = int(n)
+r = n % 2
 
+if r == 0:
+  print("the number is even")
+else: 
+  print("the number is odd")
 *Tip: even % 2 equals 0
