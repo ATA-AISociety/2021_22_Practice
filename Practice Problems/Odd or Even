@@ -2,4 +2,9 @@
 
 *Tip: even % 2 equals 0
 
+input = int(input("Enter a number: "))
+if input % 2 == 0:
+    print("Your number is even")
+else:
+    print("Your number is odd")
 
