@@ -13,3 +13,10 @@ BMI = wInt/(hInt*hInt)
 
 print("Your BMI is: " + str(BMI))
 #End
+
+# Aaron Ba
+weight = 100;
+height = 54;
+BMI = weight/height/height*703;
+print(BMI);
+# End
