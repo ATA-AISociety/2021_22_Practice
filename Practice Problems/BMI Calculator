@@ -2,3 +2,14 @@
 
 #*Tip : BMI = weight (lb) / height (in) / height (in)] x 703
 
+#Adam H
+weight = input("What's your weight?")
+height = input("What's yout height?")
+
+wInt = int(weight)
+hInt = int(height)
+
+BMI = wInt/(hInt*hInt)
+
+print("Your BMI is: " + str(BMI))
+#End
