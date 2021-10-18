@@ -14,3 +14,13 @@ equation = ((Phi ** userInput) - (phi ** userInput)) / math.sqrt(5)
 print(int(equation))
 
 # End
+
+#Adam
+numOfNums = int(input("How many Fibonnaci seqence numbers? "))
+sequence = [1,1]
+ctrl = 2;
+while (ctrl < numOfNums):
+  sequence.append(sequence[ctrl-1]+sequence[ctrl-2])
+  ctrl += 1
+print(sequence[numOfNums-1])
+#End
