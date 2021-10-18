@@ -16,3 +16,12 @@ if r == 0:
   print("the number is even")
 else: 
   print("the number is odd")
+
+#Adam
+while True:
+  inpt = int(input("Odd or Even?"))
+  if inpt % 2 == 0:
+    print("Even")
+  else:
+    print("Odd")
+    #End
