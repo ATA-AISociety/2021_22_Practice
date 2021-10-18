@@ -20,3 +20,22 @@ elif move == "paper" and move2 == "scissors":
     print("Player 2 wins")
 else:
     print("Tie game!")
+
+
+//Kalel Heinreich
+one = input("Player 1: Input rock, paper or scissors: ")
+two = input("Player 2: Input rock, paper or scissors: ")
+if one == two:
+  print("It's a tie!")
+elif one == "rock" and two == "paper":
+  print("player 2 wins!")
+elif one == "rock" and two == "scissors":
+  print("player 1 wins!")
+elif one == "paper" and two == "rock":
+  print("player 1 wins!")
+elif one == "paper" and two == "scissors":
+  print("player 2 wins!")
+elif one == "scissors" and two == "rock":
+  print("player 2 wins!")
+elif one == "scissors" and two == "paper":
+  print("player 1 wins!")
