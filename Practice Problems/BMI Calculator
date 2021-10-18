@@ -28,3 +28,12 @@ height = int(input("Enter your height in inches: "))
 BMI = weight / height / height * 703
 print("Your BMI is " + str(round(BMI)))
 # End
+
+//Kalel Heinreich
+w = input("Input weight: ")
+h = input("Input height: ")
+w = int(w)
+h = int(h)
+t = w / h / h * 703
+print("Your BMI is: " + str(t))
+#done
