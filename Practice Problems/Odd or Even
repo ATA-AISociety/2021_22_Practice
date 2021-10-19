@@ -25,3 +25,14 @@ while True:
   else:
     print("Odd")
     #End
+
+# Aaron Ba
+
+userInput = int(input("Enter number:" ))
+
+if (userInput % 2) == 0:
+  print("Even")
+else:
+  print("Odd")
+  
+# End
