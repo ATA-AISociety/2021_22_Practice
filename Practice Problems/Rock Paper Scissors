@@ -39,3 +39,29 @@ elif one == "scissors" and two == "rock":
 elif one == "scissors" and two == "paper":
   print("player 1 wins!")
   #Done
+
+# Aaron Ba
+
+playerOne = input("Rock, paper, scissors: ").lower()
+playerTwo = input("Rock, paper, scissors: ").lower()
+
+if playerOne == "rock" and playerTwo == "paper":
+  print("Player Two wins")
+elif playerOne == "paper" and playerTwo == "rock":
+  print("Player One wins")
+#rock/paper outputs
+elif playerOne == "rock" and playerTwo == "scissors":
+  print("Player One wins")
+elif playerOne == "scissors" and playerTwo == "rock":
+  print("Player Two wins")
+#rock/scissors outputs
+elif playerOne == "paper" and playerTwo == "scissors":
+  print("Player Two wins")
+elif playerOne == "scissors" and playerTwo == "paper":
+  print("Player One wins")
+#paper/scissors outputs
+else:
+  print("Tie")
+#tie output
+
+# End
