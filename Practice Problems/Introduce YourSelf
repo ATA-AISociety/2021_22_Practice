@@ -15,3 +15,11 @@ print("I am in 10th grade")
 print("I am an IT major")
 print("I am taking 2 other major classes, they are Computer Science and Architecture.")
 #End
+
+
+#Yohannes 
+print("Hello, My name is Yohannes")
+print("I am a junior")
+print("My major is engineering")
+print("I run track")
+#End
