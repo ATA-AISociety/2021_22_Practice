@@ -112,4 +112,9 @@ while 1 == 1:
             print(x / y)
             loop = 1
 
-
+x = input()
+if x %2 == 0: 
+    print("Input is Even")
+    
+else:
+    print("Input is odd")
