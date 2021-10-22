@@ -81,3 +81,9 @@ while 1 == 1:
     else:
         print("ERROR")
 
+
+x = input("Is water wet?  Yes/NO ")
+if x == "Yes":
+    print("You know the way")
+else:
+    print("CHild .. Wrong..You are lost")
