@@ -4,7 +4,9 @@ def Jordan():
     print("I am president of Artifical Intelligence Society")
     print("My first programming language was C++ and so am very used to adding semicolons;")
     print("I created a discord bot over the summer which webscrapes information off thesaurus.com")
-
+def pres():
+    print("I am the president of AI Society")
+    print("I like to imagine how i could intergrate Artifical Intellegence in our everyday life")
 def alex():
     print("I am vice president of Artifical Intelligence Society")
     print("I hate javascript")
