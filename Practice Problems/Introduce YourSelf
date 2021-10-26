@@ -23,3 +23,7 @@ print("I am a junior")
 print("My major is engineering")
 print("I run track")
 #End
+
+#Dorothy
+print("Hello, I am Dorothy Pirosch, I am a senior in the engineering program. One fun fact about me is that I like to do origami in my free time.")
+#End
