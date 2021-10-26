@@ -27,3 +27,10 @@ print("I run track")
 #Dorothy
 print("Hello, I am Dorothy Pirosch, I am a senior in the engineering program. One fun fact about me is that I like to do origami in my free time.")
 #End
+
+#Israel
+print("Israel Zewdie")
+print("I am in 12th grade")
+print("My major is computer science")
+print("I enjoy playing Soccer")
+#End
