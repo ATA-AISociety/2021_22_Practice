@@ -37,3 +37,14 @@ h = int(h)
 t = w / h / h * 703
 print("Your BMI is: " + str(t))
 #end
+
+#Dorothy Pirosch
+w = input("Enter weight: ")
+h = input("Enter height: ")
+
+w = int(w)
+h = int(h)
+
+BMI = (w/h/h) * 703
+print(BMI)
+#End
