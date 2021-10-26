@@ -36,3 +36,15 @@ else:
   print("Odd")
   
 # End
+
+
+#Dorothy Pirosch
+num = input("Please enter any whole number: ");
+
+num = int(num);
+
+if num % 2 == 0:
+  print("This number is even.")
+else:
+  print("This number is odd.")
+#End
