@@ -48,3 +48,14 @@ h = int(h)
 BMI = (w/h/h) * 703
 print(BMI)
 #End
+
+
+#Israel Zewdie
+
+weight = int(input("Enter your weight in pounds: "))
+height = int(input("Enter your height in inches: "))
+
+BMI = int((weight/height/height) * 703)
+print(BMI)
+
+#End
