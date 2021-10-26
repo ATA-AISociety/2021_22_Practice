@@ -24,3 +24,21 @@ while (ctrl < numOfNums):
   ctrl += 1
 print(sequence[numOfNums-1])
 #End
+
+
+#Dorothy P
+num1 = 1
+num2 = 2
+
+times = input("How many times should I run the program?")
+times = int(times)
+
+i = 0
+
+while(i < times):
+  sum = num1 + num2
+  print(str(sum) + ", ", end=""),
+  num1 = num2
+  num2 = sum
+  i += 1
+#End
