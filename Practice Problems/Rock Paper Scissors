@@ -65,3 +65,47 @@ else:
 #tie output
 
 # End
+
+
+#Dorothy Pirosch
+print("Rock = 1 \n Paper = 2 \n Scissors = 3")
+
+#player input
+RPS1 = input("Player 1, shoot!")
+RPS2 = input("Player 2, shoot!")
+
+#turning into integers
+RPS1 = int(RPS1)
+RPS2 = int(RPS2)
+
+#all scenarios and results
+if(RPS1 == 1):
+  if(RPS2 == 1):
+    print("tie!")
+  elif(RPS2 == 2):
+    print("Player 2 wins!")
+  elif(RPS2 == 3):
+    print("Player 1 wins!")
+  else:
+    print("oops, that's not valid! restart the game.")
+elif(RPS1 == 2):
+  if(RPS2 == 1):
+    print("Player 1 wins!")
+  elif(RPS2 == 2):
+    print("Tie!")
+  elif(RPS2 == 3):
+    print("Player 2 wins!")
+  else:
+    print("oops, that's not valid! restart the game.")
+elif(RPS1 == 3):
+  if(RPS2 == 1):
+    print("Player 2 wins!")
+  elif(RPS2 == 2):
+    print("Player 1 wins!")
+  elif(RPS2 == 3):
+    print("Tie!")
+  else:
+    print("oops, that's not valid! restart the game.")
+else:
+  print("oops, that's not valid! restart the game.")
+#END
