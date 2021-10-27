@@ -59,3 +59,10 @@ BMI = int((weight/height/height) * 703)
 print(BMI)
 
 #End
+
+#Dorothy Hua
+weight = int(input("Enter you weight in lb as a whole number: "))
+height = int(input("Enter you height in inches as a whole number: "))
+BMI =  (weight/(height*height))*703
+print("Your BMI is: " + str(BMI))
+#End
