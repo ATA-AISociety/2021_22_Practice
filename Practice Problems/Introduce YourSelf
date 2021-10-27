@@ -34,3 +34,10 @@ print("I am in 12th grade")
 print("My major is computer science")
 print("I enjoy playing Soccer")
 #End
+
+#Dorothy Hua
+print("Hello, my name is Dorothy Hua")
+print("I am in 11th grade")
+print("My major is CS and Cyber")
+print("I have nine budgies")
+#End
