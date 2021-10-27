@@ -59,3 +59,11 @@ if user%2==0: print("Your Number is even: ")
 else: print("Your Number is odd: ")
 
 #End
+
+#Dorothy Hua
+x = int(input("Enter a number: ")
+  if (x % 2)== 1: 
+    print("This number is odd")
+  else: 
+    print("This number is even") 
+#End
