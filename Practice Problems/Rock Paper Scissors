@@ -109,3 +109,25 @@ elif(RPS1 == 3):
 else:
   print("oops, that's not valid! restart the game.")
 #END
+
+#Dorothy Hua
+print("Rock = r, paper = p, scissors = s")
+p1 = input("Player 1's choice: ")
+p2 = input("Player 2's choice: ")
+if p1==p2:
+  print("draw")
+elif p1=="p" and p2 == "r":
+  print("Player 1 wins")
+elif p1=="r" and p2 == "p":
+  print("Player 2 wins")
+elif p1=="s" and p2 == "r":
+  print("Player 2 wins")
+elif p1=="p" and p2 == "s":
+  print("Player 2 wins")
+elif p1=="r" and p2 == "s":
+  print("Player 1 wins")
+elif p1=="s" and p2 == "p":
+  print("Player 1 wins")
+else:
+  print("Please enter either \"r\",\"p\", or \"s\"")
+#End
