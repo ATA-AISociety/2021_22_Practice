@@ -131,3 +131,22 @@ elif p1=="s" and p2 == "p":
 else:
   print("Please enter either \"r\",\"p\", or \"s\"")
 #End
+
+
+#Israel Z.
+pOne = input("Player One Choose either rock, paper, or scissors:  ")
+pTwo = input("Player Two Choose either rock, paper, or scissors:  ")
+
+if pOne == pTwo: print("Tie")
+
+elif pOne == "rock" and pTwo == "paper": print("Player two wins")
+elif pTwo == "rock" and pOne == "paper": print("Player One wins")
+
+elif pOne == "scissors" and pTwo == "rock": print("Player two wins")
+elif pTwo == "scissors" and pOne == "rock": print("Player one wins")
+
+elif pOne == "paper" and pTwo == "scissors": print("Player two wins")
+elif pTwo == "paper" and pOne == "scissors": print("Player two wins")
+
+else: print("Error! Make sure you type in Lowercase and choose one of the options!")
+#End
